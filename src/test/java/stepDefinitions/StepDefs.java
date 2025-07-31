@@ -45,7 +45,7 @@ public class StepDefs {
 		l.setLat(-38.383494);
 		l.setLng(33.427362);
 		p.setLocation(l);
-
+		System.out.println();
 		 RequestSpecification req =new RequestSpecBuilder().setBaseUri("https://rahulshettyacademy.com").addQueryParam("key", "qaclick123")
 		.setContentType(ContentType.JSON).build();
 		 
